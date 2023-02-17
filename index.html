@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://kit.fontawesome.com/eec230a11e.css" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav" data-aos="fade-right">
+      <ul class="links">
+        <li class="links__element"><a href="#"><img src="./images/logo.svg" alt="Fylo logo"></a></li>
+        <li class="links__element"><a href="#">Features</a></li>
+        <li class="links__element"><a href="#">Team</a></li>
+        <li class="links__element"><a href="#">Sign in</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <div class="hero__container" data-aos="fade-up">
+        <img src="./images/illustration-intro.png" alt="" class="hero__image">
+        <h2 class="hero__title">All your files in one secure location, accessible anywhere.</h2>
+        <p class="hero__text">Fylo stores all your most important files in one secure location. Access them wherever 
+          you need, share and collaborate with friends family, and co-workers.</p>
+          <button class="hero__button">Get Started</button>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="section">
+      <article class="benefits">
+        <ul class="benefits__list">
+          <li class="benefits__element" data-aos="fade-down-right">
+            <img src="./images/icon-access-anywhere.svg" alt="" class="benefits__image">
+            <h3 class="benefits__title">Access your files, anywhere</h3>
+            <p class="benefits__text">The ability to use a smartphone, tablet, or computer to access your account means your 
+              files follow you everywhere.</p>
+          </li>
+          <li class="benefits__element" data-aos="fade-down-left">
+            <img src="./images/icon-security.svg" alt="" class="benefits__image">
+            <h3 class="benefits__title">Security you can trust</h3>
+            <p class="benefits__text">2-factor authentication and user-controlled encryption are just a couple of the security 
+              features we allow to help secure your files.</p>
+          </li>
+          <li class="benefits__element" data-aos="fade-up-right">
+            <img src="./images/icon-collaboration.svg" alt="" class="benefits__image">
+            <h3 class="benefits__title">Real-time collaboration</h3>
+            <p class="benefits__text">Securely share files and folders with friends, family and colleagues for live collaboration. 
+              No email attachments required.</p>
+          </li>
+          <li class="benefits__element" data-aos="fade-up-left">
+            <img src="./images/icon-any-file.svg" alt="" class="benefits__image">
+            <h3 class="benefits__title">Store any type of file</h3>
+            <p class="benefits__text">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
+              file types to be securely stored and shared.</p>
+          </li>
+        </ul>
+      </article>
+
+      <article class="productivity" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="./images/illustration-stay-productive.png" alt="" class="productivity__image">
+        <div class="productivity__container">
+          <h3 class="productivity__title">Stay productive, wherever you are</h3>
+          <p class="productivity__text">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+          <p class="productivity__text">Securely share files and folders with friends, family and colleagues for live collaboration. No email 
+            attachments required.</p>
+          <div class="productivity__link-container">
+            <a href="#" class="productivity__link">See how Fylo works </a>
+            <img src="./images/icon-arrow.svg" alt="" class="productivity__icon">
+          </div>
+        </div>
+      </article>
+      <article class="clients" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <ul class="comments">
+          <img src="./images/bg-quotes.png" alt="" class="comments__image">
+          <li class="comments__comment">
+            <p class="comments__text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+            <div class="comments__container">
+              <img src="./images/profile-1.jpg" alt="" class="comments__perfil">
+              <p class="comments__name">Satish Patel</p>
+              <p class="comments__description">Founder & CEO, Huddle</p>
+            </div>
+          </li>
+          <li class="comments__comment">
+            <p class="comments__text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+            <div class="comments__container">
+              <img src="./images/profile-2.jpg" alt="" class="comments__perfil">
+              <p class="comments__name">Bruce McKenzie</p>
+              <p class="comments__description">Founder & CEO, Huddle</p>
+            </div>
+          </li>
+          <li class="comments__comment">
+            <p class="comments__text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+            <div class="comments__container">
+              <img src="./images/profile-3.jpg" alt="" class="comments__perfil">
+              <p class="comments__name">Iva Boyd</p>
+              <p class="comments__description">Founder & CEO, Huddle</p>
+            </div>
+          </li>
+        </ul>
+      </article>
+    </section>
+  </main>
+  <footer class="footer">
+    <form class="form">
+      <h3 class="form__title">Get early access today</h3>
+      <p class="form__text">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+      <div class="form__container">
+        <input type="text" class="form__input">
+        <span class="form__mensaje"></span>
+        <button class="form__button">Get Started For Free</button>
+      </div>
+    </form>
+    <div class="footer__container">
+      <img src="./images/logo.svg" alt="" class="footer__image">
+      <div class="contact">
+        <div class="contact__direction">
+          <img src="./images/icon-location.svg" alt="" class="contact__icon">
+          <p class="contact__direction-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et, dolore magna aliqua</p>
+        </div>
+        <div class="record">
+            <img src="./images/icon-phone.svg" alt="" class="contact__icon contact__icon--right"><p>+1-543-123-4567</p>
+            <img src="./images/icon-email.svg" alt="" class="contact__icon contact__icon--right"><p>example@fylo.com</p>
+        </div>
+        <div class="navigations">
+          <ul class="navigations__list">
+            <li class="navigations__element">About Us</li>
+            <li class="navigations__element">Jobs</li>
+            <li class="navigations__element">Press</li>
+            <li class="navigations__element">Blog</li>
+            <li class="navigations__element">Contact Us</li>
+            <li class="navigations__element">Terms</li>
+            <li class="navigations__element">Privacy</li>
+          </ul>
+        </div>
+        <div class="networks">
+          <ul class="networks__list">
+            <li class="networks__element"><i class="fa-brands fa-facebook networks__icon"></i></li>
+            <li class="networks__element"><i class="fa-brands fa-twitter networks__icon"></i></li>
+            <li class="networks__element"><i class="fa-brands fa-instagram networks__icon"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/eec230a11e.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/main.js"></script>
+  <script>
+    AOS.init({
+      duration: 900
+    });
+  </script>
+</body>
+</html>
